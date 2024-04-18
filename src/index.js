@@ -3,5 +3,7 @@ if (process.env.NODE_ENV !== "production") {
 }
 
 import "./styles.css";
+import _ from "lodash";
+import { objCreator, todo1 } from "./game";
 
-console.log("its working")
+console.log(todo1);
