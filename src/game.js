@@ -7,8 +7,6 @@ function objCreator(title, description, dueDate, note) {
   };
 }
 
-const todo1 = objCreator("work", "contact clients", "Monday", "email them");
-
-export { objCreator, todo1 }
+export { objCreator };
 
 // DOM logic Properties CHECK(boolean) AND PRIORITY([low,high,urgent])

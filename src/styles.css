@@ -18,19 +18,27 @@
   grid-row: 1 / 3;
 }
 
-.projectList {
+.todoList {
   border: 7px solid rgb(59, 144, 88);
   grid-column: 2 / 3;
   grid-row: 1 / 3;
   position: relative;
 }
 
-.projectList > button {
-font-size: large;
-place-items: center;
-position: absolute;
-padding: 10px 18px;
-top: 20%;
-left: 20%;
-transform: translate(-50%, -50%);
+.todo {
+  place-items: center;
+  position: absolute;
+  padding: 10px 18px;
+  top: 20%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
+
+label {
+  font-size: 30px;
+}
+
+input {
+  border: 3px solid black;
+  font-size: large;
 }
