@@ -8,11 +8,29 @@
   border: 6px solid burlywood;
   height: 95vh;
   display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: 200px 1fr;
 }
 
 .nav {
-  border: 10px solid red;
-  grid-column: 1 / 3;
-  grid-row: 1 / 2;
+  border: 7px solid rgb(64, 0, 255);
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
 }
 
+.projectList {
+  border: 7px solid rgb(59, 144, 88);
+  grid-column: 2 / 3;
+  grid-row: 1 / 3;
+  position: relative;
+}
+
+.projectList > button {
+font-size: large;
+place-items: center;
+position: absolute;
+padding: 10px 18px;
+top: 20%;
+left: 20%;
+transform: translate(-50%, -50%);
+}
