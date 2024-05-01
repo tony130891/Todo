@@ -1,12 +1,10 @@
-function objCreator(title, description, dueDate, note) {
+function objCreator(title, description, priority, dueDate) {
   return {
     title,
     description,
+    priority,
     dueDate,
-    note,
   };
 }
 
 export { objCreator };
-
-// DOM logic Properties CHECK(boolean) AND PRIORITY([low,high,urgent])
