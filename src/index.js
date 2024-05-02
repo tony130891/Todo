@@ -4,7 +4,5 @@ if (process.env.NODE_ENV !== "production") {
 
 import "./styles.css";
 import _ from "lodash";
-import { objCreator } from "./game";
-import { btn } from "./DOM";
-
-const form = document.querySelector(".todo");
+import { objCreator } from "./Object";
+import { content as home } from "./home";
