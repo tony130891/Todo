@@ -43,7 +43,7 @@ input {
   min-height: 2em;
 }
 
-form {
+/*form {
   display: none;
   width: 60vw;
   max-width: 500px;
@@ -51,6 +51,8 @@ form {
   margin: 0 auto;
   padding-bottom: 2em;
 }
+
+*/
 
 button {
   display: flex;
