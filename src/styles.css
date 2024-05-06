@@ -85,3 +85,9 @@ button {
     transform: scale(1.4);
   }
 }
+
+#favDialog {
+  border: 2px solid red;
+  width: 970px;
+  height: 550px;
+}
