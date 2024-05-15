@@ -4,7 +4,11 @@ if (process.env.NODE_ENV !== "production") {
 
 import "./styles.css";
 import _ from "lodash";
-import { } from "date-fns";
+import { format } from "date-fns";
 import { objCreator, btnTodo } from "./Object";
 import { btnPlus } from "./home";
 import { btnProject } from "./project";
+
+const today = new Date();
+const todayDate = format(today, "MMM/dd")
+console.log(todayDate);

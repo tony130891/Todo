@@ -91,3 +91,11 @@ button {
   width: 970px;
   height: 550px;
 }
+
+#calendarInput {
+    border: 3px solid rebeccapurple;
+    font-size: large;
+    margin: 5px 130px;
+    width: 20%;
+    min-height: 2em;
+}

@@ -22,13 +22,31 @@ btnTodo.addEventListener("click", () => {
   formTodo.appendChild(description);
 
   const dueDate = document.createElement("p");
-  dueDate.textContent = "Due Date:"
-  formTodo.appendChild(dueDate)
+  dueDate.textContent = "Due Date:";
+  formTodo.appendChild(dueDate);
+  const calendar = document.createElement("input");
+  calendar.setAttribute("type", "date");
+  calendar.setAttribute("id", "calendarInput");
+  dueDate.appendChild(calendar);
 
   const priority = document.createElement("p");
-  priority.textContent = "Priority level:"
+  priority.textContent = "Priority level:";
   formTodo.appendChild(priority);
-})
+
+  const priorityArr = ["urgent", "low", "not urgent"];
+
+  const priorityList = document.createElement("select");
+  priorityList.id = "priorityList";
+  priority.appendChild(priorityList);
+
+  //Create and append the options
+  for (let i = 0; i < priorityArr.length; i++) {
+    let option = document.createElement("option");
+    option.value = priorityArr[i];
+    option.text = priorityArr[i];
+    priorityList.appendChild(option);
+  }
+});
 
 function objCreator(title, description, priority, dueDate) {
   return {
