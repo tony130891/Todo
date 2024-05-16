@@ -33,7 +33,7 @@ btnTodo.addEventListener("click", () => {
   priority.textContent = "Priority level:";
   formTodo.appendChild(priority);
 
-  const priorityArr = ["urgent", "low", "not urgent"];
+  const priorityArr = ["Urgent", "Low", "Not urgent"];
 
   const priorityList = document.createElement("select");
   priorityList.id = "priorityList";

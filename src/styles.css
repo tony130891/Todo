@@ -99,3 +99,28 @@ button {
     width: 20%;
     min-height: 2em;
 }
+
+#priorityList {
+  border: 3px solid rebeccapurple;
+  font-size: large;
+  margin: 5px 100px;
+  width: 20%;
+  min-height: 2em;
+}
+
+.inputProject {
+  border: 3px solid rebeccapurple;
+  font-size: large;
+  margin: 5px 195px;
+  width: 40%;
+  min-height: 2em;
+}
+
+.mainList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: x-large;
+  margin: 70px 25px;
+  border: 2px solid black;
+}
