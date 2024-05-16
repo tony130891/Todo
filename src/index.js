@@ -9,6 +9,3 @@ import { objCreator, btnTodo } from "./Object";
 import { btnPlus } from "./home";
 import { btnProject } from "./project";
 
-const today = new Date();
-const todayDate = format(today, "MMM/dd")
-console.log(todayDate);

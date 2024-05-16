@@ -124,3 +124,9 @@ button {
   margin: 70px 25px;
   border: 2px solid black;
 }
+
+.btn-submit {
+      margin: 5px 195px;
+      width: 40%;
+      min-height: 2em;
+}
