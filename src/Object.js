@@ -4,7 +4,7 @@ const dialog = document.querySelector("dialog");
 btnTodo.addEventListener("click", () => {
   const formTodo = document.createElement("form");
   formTodo.setAttribute("method", "Dialog");
-  formTodo.className = "formTodo";
+  formTodo.className = "formtodo";
   const title = document.createElement("input");
   title.setAttribute("type", "text");
   title.setAttribute("name", "title");
@@ -48,7 +48,7 @@ btnTodo.addEventListener("click", () => {
   }
 });
 
-function objCreator(title, description, priority, dueDate) {
+function objTodo(title, description, priority, dueDate) {
   return {
     title,
     description,
@@ -57,4 +57,4 @@ function objCreator(title, description, priority, dueDate) {
   };
 }
 
-export { objCreator, btnTodo };
+export { objTodo, btnTodo };

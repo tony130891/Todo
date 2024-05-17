@@ -7,5 +7,5 @@ import _ from "lodash";
 import { format } from "date-fns";
 import { objCreator, btnTodo } from "./Object";
 import { btnPlus } from "./home";
-import { btnProject } from "./project";
+import { btnProject, objProject } from "./project";
 
