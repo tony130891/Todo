@@ -6,6 +6,5 @@ import "./styles.css";
 import _ from "lodash";
 import { format } from "date-fns";
 import { objCreator, btnTodo } from "./Object";
-import { btnPlus } from "./home";
+import { btnPlus, btnSubmit } from "./home";
 import { btnProject, objProject } from "./project";
-
