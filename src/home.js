@@ -1,3 +1,6 @@
+import { objTodo } from "./Object";
+import { objProject } from "./project";
+
 // DOM LOGIC
 const btnPlus = document.querySelector("#btn-Plus")
 const dialog = document.querySelector("dialog");
@@ -11,8 +14,8 @@ btnSubmit.addEventListener("click", () => {
   let formTodo = form.classList.contains("todo");
   let formProject = form.classList.contains("project");
 
-  if (formProject) {
-  }
+  if (formProject) { return objProject(title, description)};
+  if (formTodo) { return objTodo(title, description, priority, dueDate)};
 });
 
 export { btnPlus }
