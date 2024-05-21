@@ -12,21 +12,19 @@
     <div class="nav">
       <h1>Projects</h1>
     </div>
-    <div class="todoList">
-      <div class="mainList"></div>
-      <dialog id="favDialog">
-
-          <div>
-            <button id="btn-project">Add Project</button>
-            <button id="btn-todo">Add todo</button>
-          </div>
-          
-          <button type="submit" class="btn-submit">Add</button>
-      </dialog>
-
-      
-      <button id="btn-Plus">+</button>
-      </div>
+    <div id="favDialog">
+      <form class="form">
+    
+        <div class="project">
+        <button class="btn-project"> Project </button>
+        <input type="text" name="projectTitle" id="projectTitle" placeholder="project title">
+        <input type="text" name="projectDescription" id="projectDescription" placeholder="projectDescription">
+        </div>
+        <button class="btn-todo"> Todo </button>
+        <button class="btn-submit"> Add </button>
+      </form>
+    </div>
+    <button id="btn-Plus">+</button>
 
    </div>
   

@@ -23,4 +23,5 @@ btnProject.addEventListener("click", () => {
   }
 });
 
+console.log(4)
 export { btnProject, objProject };

@@ -57,4 +57,6 @@ function objTodo(title, description, priority, dueDate) {
   };
 }
 
+console.log(3)
+
 export { objTodo, btnTodo };

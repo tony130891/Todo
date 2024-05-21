@@ -88,8 +88,11 @@ button {
 
 #favDialog {
   border: 2px solid red;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
   width: 970px;
   height: 550px;
+  display: none;
 }
 
 #calendarInput {

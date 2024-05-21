@@ -1,20 +1,25 @@
 // DOM LOGIC
-const btnPlus = document.querySelector("#btn-Plus")
-const dialog = document.querySelector("dialog");
 const btnSubmit = document.querySelector(".btn-submit");
+let form = document.querySelector("form");
+const btnPlus = document.querySelector("#btn-Plus");
 
 btnPlus.addEventListener("click", () => {
-  dialog.showModal();
+  const favDialog = document.querySelector("#favDialog");
+
+  if (favDialog.style.display === "none") {
+    favDialog.style.display = "block";
+  } else {
+    favDialog.style.display = "none";
+  }
 });
 
 btnSubmit.addEventListener("submit", (e) => {
   e.preventDefault();
-  let form = document.querySelector("form");
   let formTodo = form.classList.contains("todo");
   let formProject = form.classList.contains("project");
   
-  if (formProject) { return objProject(title, description)};
-  if (formTodo) { return objTodo(title, description, priority, dueDate)};
+  
 });
 
-export { btnPlus, btnSubmit }
+
+export { btnSubmit, btnPlus }
